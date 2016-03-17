@@ -9,7 +9,7 @@
 * COPYING file online at http://files.froxlor.org/misc/COPYING.txt
 *
 * @copyright  (c) the authors
-* @author     Florian Lippert <flo@syscp.org>
+* @author     radikal <radikal@hurricane-computing.com>
 * @author     Froxlor Team <team@froxlor.org>
 * @license    GPLv2 http://files.froxlor.org/misc/COPYING.txt
 * @package    Language
@@ -18,7 +18,7 @@
 /**
 * Global
 */
-$lng['translator'] = '';
+$lng['translator'] = 'radikal';
 $lng['panel']['edit'] = 'editar';
 $lng['panel']['delete'] = 'eliminar';
 $lng['panel']['create'] = 'crear';   
