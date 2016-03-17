@@ -19,27 +19,28 @@
 * Global
 */
 $lng['translator'] = '';
-$lng['panel']['edit'] = 'edit';
-$lng['panel']['delete'] = 'delete';
-$lng['panel']['create'] = 'create';
-$lng['panel']['save'] = 'save';
-$lng['panel']['yes'] = 'yes';
+$lng['panel']['edit'] = 'editar';
+$lng['panel']['delete'] = 'eliminar';
+$lng['panel']['create'] = 'crear';   
+$lng['panel']['save'] = 'guardar';
+$lng['panel']['yes'] = 'sí';      
 $lng['panel']['no'] = 'no';
-$lng['panel']['emptyfornochanges'] = 'empty for no changes';
-$lng['panel']['emptyfordefault'] = 'empty for defaults';
-$lng['panel']['path'] = 'Path';
-$lng['panel']['toggle'] = 'Toggle';
-$lng['panel']['next'] = 'next';
-$lng['panel']['dirsmissing'] = 'Can not find or read the directory!';
+$lng['panel']['emptyfornochanges'] = 'vacío para no cambiar';
+$lng['panel']['emptyfordefault'] = 'vacío para valor por defecto';
+$lng['panel']['path'] = 'Ruta';
+$lng['panel']['toggle'] = 'Alterna';
+$lng['panel']['next'] = 'siguiente';
+$lng['panel']['dirsmissing'] = 'No se encuentra o se puede leer el directorio!';
 /**
 * Login
 */
-$lng['login']['username'] = 'Username';
-$lng['login']['password'] = 'Password';
-$lng['login']['language'] = 'Language';
-$lng['login']['login'] = 'Login';
-$lng['login']['logout'] = 'Logout';
-$lng['login']['profile_lng'] = 'Profile language';
+$lng['login']['username'] = 'Nombre de usuario';
+$lng['login']['password'] = 'Contraseña';       
+$lng['login']['language'] = 'Lenguaje';   
+$lng['login']['login'] = 'Iniciar sesión';
+$lng['login']['logout'] = 'Cerrar sesión';
+$lng['login']['profile_lng'] = 'Idioma de perfil';
+
 /**
 * Customer
 */
