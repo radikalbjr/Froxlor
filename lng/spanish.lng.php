@@ -126,7 +126,7 @@ $lng['changepassword']['also_change_ftp'] = ' También cambia la contraseña a l
 /**
 * Domains
 */
-$lng['domains']['description'] = 'Aquí puedes crear (sub)dominios y cambiar sus rutas.<br />El sistema necesitará algún tiempo para apl
+$lng['domains']['description'] = 'Aquí puedes crear (sub)dominios y cambiar sus rutas.<br />El sistema necesitará algún tiempo para aplicar la nueva configuración despues de cada cambio.';
 $lng['domains']['domainsettings'] = 'Configuración de dominios';                                                                       
 $lng['domains']['domainname'] = 'Nombre del dominio';           
 $lng['domains']['subdomain_add'] = 'Crear subdominio';
@@ -137,7 +137,7 @@ $lng['domains']['noaliasdomain'] = 'Dominio sin alias';
 /**
 * E-mails
 */
-$lng['emails']['description'] = 'Here you can create and change your email addresses.<br />An account is like your letterbox in front o
+$lng['emails']['description'] = 'Here you can create and change your email addresses.<br />An account is like your letterbox in front of your house. If someone sends you an email, it will be dropped into the account.<br /><br />To download your emails use the following  settings in your mailprogram: (The data in <i>italics</i> has to be changed to the equivalents you typed in!)<br />Hostname: <b><i>domainname</i></b><br />Username: <b><i>account name / e-mail address</i></b><br />password: <b><i>the password you\'ve chosen</i></b>'; 
 $lng['emails']['emailaddress'] = 'Dirección de correo';
 $lng['emails']['emails_add'] = 'Crear dirección de correo';  
 $lng['emails']['emails_edit'] = 'Editar dirección de correo';
@@ -153,7 +153,7 @@ $lng['emails']['forwarder_add'] = 'Crear reenvíos';
 /**  
 * FTP
 */
-$lng['ftp']['description'] = 'Aquí puedes crear y cambiar tus cuentas FTP.<br />Los cambios son instantáneos y las cuentas pueden usars
+$lng['ftp']['description'] = 'Aquí puedes crear y cambiar tus cuentas FTP.<br />Los cambios son instantáneos y las cuentas pueden usarse inmediatamente.';
 $lng['ftp']['account_add'] = 'Crear cuenta';
 /**
 * MySQL
@@ -164,7 +164,7 @@ $lng['mysql']['database_create'] = 'Crear base de datos';
 /**
 * Extras
 */
-$lng['extras']['description'] = 'Aquí puedes agregar algunos extras, por ejemplo protección de directorio.<br />El sistema necesitará a
+$lng['extras']['description'] = 'Aquí puedes agregar algunos extras, por ejemplo protección de directorio.<br />El sistema necesitará algún tiempo para aplicar la nueva configuración después de cada cambio.';
 $lng['extras']['directoryprotection_add'] = 'Añadir protección de directorio';
 $lng['extras']['view_directory'] = 'Mostrar el contenido del directorio';
 $lng['extras']['pathoptions_add'] = 'Añadir opciones de ruta';
@@ -187,12 +187,12 @@ $lng['error']['filemustexist'] = 'El archivo %s debe existir.';
 $lng['error']['allresourcesused'] = 'Ya ha usado todos sus recursos.';
 $lng['error']['domains_cantdeletemaindomain'] = 'No se puede eliminar un dominio que está siendo usado como dominio de correo.';
 $lng['error']['domains_canteditdomain'] = 'No se puede editar este dominio. Ha sido desactivado por el administrador.';
-$lng['error']['domains_cantdeletedomainwithemail'] = 'No puede eliminar un dominio que está siendo usado como dominio de correo. Elimin
+$lng['error']['domains_cantdeletedomainwithemail'] = 'No puede eliminar un dominio que está siendo usado como dominio de correo. Elimine todas las direcciones de correo antes.';
 $lng['error']['firstdeleteallsubdomains'] = 'Debe eliminar todos los subdominios antes de crear un dominio comodín.';
 $lng['error']['youhavealreadyacatchallforthisdomain'] = 'Ya tiene un buzón global definido para este dominio.';
 $lng['error']['ftp_cantdeletemainaccount'] = 'No puede eliminar su cuenta FTP principal';
 $lng['error']['login'] = 'El usuario o contraseña introducidos no son correctos. Por favor, ¡vuelva a intentarlo!';
-$lng['error']['login_blocked'] = 'Esta cuenta ha sido suspendida por demasiados intentos erróneos. <br />Por favor, inténtelo en %s seg
+$lng['error']['login_blocked'] = 'Esta cuenta ha sido suspendida por demasiados intentos erróneos. <br />Por favor, inténtelo en %s segundos.';
 $lng['error']['notallreqfieldsorerrors'] = 'No ha rellenado todos los campos o ha rellenado algunos campos incorrectamente.';
 $lng['error']['oldpasswordnotcorrect'] = 'La contraseña anterior no es correcta.';
 $lng['error']['youcantallocatemorethanyouhave'] = 'No puede utilizar más recursos de los que dispone.';
@@ -221,7 +221,7 @@ $lng['error']['wwwnotallowed'] = 'No está permitido www para subdominios.';
 $lng['error']['subdomainiswrong'] = 'El subdominio %s contiene caracteres inválidos.';
 $lng['error']['domaincantbeempty'] = 'El Nombre de Dominio no puede estar vacío.';
 $lng['error']['domainexistalready'] = 'El dominio %s ya existe.';
-$lng['error']['domainisaliasorothercustomer'] = 'El alias de dominio seleccionado es en sí mismo un alias de dominio, tiene una combina
+$lng['error']['domainisaliasorothercustomer'] = 'El alias de dominio seleccionado es en sí mismo un alias de dominio, tiene una combinación IP/puerto distinta, o bien pertenece a otro cliente.';
 $lng['error']['emailexistalready'] = 'La dirección de correo %s ya existe.';
 $lng['error']['maindomainnonexist'] = 'El dominio principal %s no existe.'; 
 $lng['error']['destinationnonexist'] = 'Por favor, cree su reenvío en el campo \'Destino\'.';
